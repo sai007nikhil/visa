@@ -7,17 +7,17 @@ import javax.persistence.Id;
 public class Employee {
 
 	@Id
-	private String eid;
+	private int eid;
 	private String name;
 	private String email;
 	private String number;
 	private String gender;
 
-	public String getEmployeeId() {
+	public int getEid() {
 		return eid;
 	}
 
-	public void setEmployeeId(String eid) {
+	public void setEid(int eid) {
 		this.eid = eid;
 	}
 
